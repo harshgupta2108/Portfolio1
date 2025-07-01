@@ -87,7 +87,7 @@ const Works = () => {
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
+          links to code repositories in it. It reflects my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
         </motion.p>
@@ -98,8 +98,106 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+
+
+     <motion.div variants={textVariant()} className="mt-40">
+  <p className={`${styles.sectionSubText}`}>My Experience</p>
+  <h2 className={`${styles.sectionHeadText}`}>HACKATHONS</h2>
+</motion.div>
+
+<div className="w-full flex">
+  <motion.p
+    variants={fadeIn("", "", 0.1, 1)}
+    className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+  >
+    Below are some of the hackathons I’ve participated in. These experiences
+    highlight my teamwork, innovation, and ability to build functional
+    prototypes under tight deadlines. Each includes a brief summary and
+    technologies used.
+  </motion.p>
+</div>
+
+<div className="mt-10 grid md:grid-cols-2 gap-10">
+  {/* Hackathon Card 1 */}
+  <motion.div
+    variants={fadeIn("up", "spring", 0.3, 1)}
+    className="bg-black-100 p-6 rounded-2xl shadow-lg"
+  >
+    <img
+      src="src/assets/Shyam.jpg" // Replace with your actual image path
+      alt="Hackathon 1"
+      className="w-full h-70 object-cover rounded-xl mb-8"
+    />
+    <h3 className="text-white text-xl font-bold mb-4">Innovate X Hackathon <p className="text-secondary text-[16px]"> Shyam Lal College, DU</p></h3>
+    <p className="text-secondary text-[15px]">
+      Built a web-based EdTech platform during a hackathon that offers curated tools, study materials, and preparation resources for government and competitive exams, aimed at simplifying access to quality learning content.
+    </p>
+    <p className="text-secondary text-[16px]"> Integrated subject-wise materials, mock tests, and user-friendly navigation to enhance the exam preparation experience.</p>
+  </motion.div>
+
+  {/* Hackathon Card 2 */}
+  <motion.div
+    variants={fadeIn("up", "spring", 0.4, 1)}
+    className="bg-black-100 p-6 rounded-2xl shadow-lg"
+  >
+    <img
+      src="src/assets/hack.jpg" // Replace with your actual image path
+      alt="Hackathon 2"
+      className="w-full h-70 object-cover rounded-xl mb-8"
+    />
+    <h3 className="text-white text-xl font-bold mb-2">FOODOSCOPE Hackathon, 15-Hour Hackathon<p  className="text-secondary text-[16px]"> IIIT , Delhi</p></h3>
+    <p className="text-secondary text-[16px]">
+      calfit is a user-friendly platform that takes the
+guesswork out of calorie tracking and meal planning, empowering individuals to achieve their wellness goals with ease.
+ <p className="text-secondary text-[16px]">It offers personalized daily calorie targets, tracks macronutrient intake, and provides smart meal. </p>
+<p className="text-secondary text-[16px]">Users can log meals, set fitness goals, and monitor progress through interactive dashboards.</p>
+    </p>
+  </motion.div>
+
+  {/* Add more hackathon cards here if needed */}
+</div>
+
+
+
+
+     <motion.div variants={textVariant()} className="mt-40">
+  
+  <h2 className={`${styles.sectionHeadText}`}>CERTIFICATES</h2>
+</motion.div>
+<p className="text-secondary text-[25px]"> # SQL Server
+Fundamentals :
+Master Basic
+Query Techniques </p>
+<p className="text-secondary text-[25px]"> # Supervised
+Machine Learning
+(LinkedIn) </p>
+<p className="text-secondary text-[25px]"> # Python for
+Data Science &
+Machine Learning
+Essentials </p>
+<p className="text-secondary text-[25px]"> # Networking and
+Administration
+Fundamental
+(LinkedIn)</p>
+<p className="text-secondary text-[25px]"> # Data Scientist
+(LinkedIn)</p>
+
+<p className="text-secondary text-[25px]"> # Full Stack Development
+(LinkedIn)</p>
+
+
     </>
   );
 };
+
+
+
+
+
+
+
+
+
+
 
 export default SectionWrapper(Works, "");

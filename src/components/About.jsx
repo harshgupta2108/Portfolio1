@@ -47,9 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in JavaScript, and
-        expertise in frameworks like React, Node.js, Express.js along with
-        MongoDB. I'm a quick learner and collaborate closely with clients to
+          I have a strong foundation in programming with hands-on experience in C and C++, and I enjoy building user-friendly web interfaces using HTML, CSS, JavaScript and React. 
+          I also have a good understanding of databases, with experience in SQL for relational data management and MongoDB for working with NoSQL databases. 
+          I'm always looking to learn new technologies and solve real-world problems through development and smart design. 
+          I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>

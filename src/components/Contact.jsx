@@ -39,9 +39,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Priyansh Verma",
+          to_name: "Harsh Gupta",
           from_email: form.email,
-          to_email: "priyanshverma444.work@gmail.com",
+          to_email: "harshgupta89232108@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -124,6 +124,7 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
+
       <div className="earth-div xl:flex-1 xl:h-[835px] md:h-[1000px] h-[600px]">
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
@@ -133,7 +134,7 @@ const Contact = () => {
             <div className="above-earth-1">
               <div
                 onClick={() =>
-                  window.open("https://github.com/priyanshverma444", "_blank")
+                  window.open("https://github.com/harshgupta2108", "_blank")
                 }
                 className="black-gradient w-20 h-20 rounded-full flex justify-center items-center cursor-pointer"
               >
@@ -144,7 +145,7 @@ const Contact = () => {
               <div
                 onClick={() =>
                   window.open(
-                    "https://www.instagram.com/priyanshverma444?igsh=MXdvZ2t1Y3p3ZmExdw==",
+                    "https://www.instagram.com/harsh_guptaa2?igsh=bDg3eXkwMDZvaWds&utm_source=qr",
                     "_blank"
                   )
                 }
@@ -160,7 +161,7 @@ const Contact = () => {
               <div
                 onClick={() =>
                   window.open(
-                    "https://x.com/priyansh__444?t=3RTCYIV0yHcVWQxgWiTX7Q&s=09",
+                    "https://x.com/harsh8184258146?s=21",
                     "_blank"
                   )
                 }
@@ -173,7 +174,7 @@ const Contact = () => {
               <div
                 onClick={() =>
                   window.open(
-                    "https://www.linkedin.com/in/priyanshverma444/",
+                    "https://www.linkedin.com/in/harsh-gupta-83514825b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
                     "_blank"
                   )
                 }
@@ -186,7 +187,9 @@ const Contact = () => {
         </motion.div>
       </div>
     </div>
+    
   );
 };
+
 
 export default SectionWrapper(Contact, "contact");

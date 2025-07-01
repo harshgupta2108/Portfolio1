@@ -11,11 +11,12 @@ import p4 from "./tech/p4.png";
 import p5 from "./tech/p5.png";
 
 import Nexus from "./company/Nexus.png";
-import DevUp from "./company/DevUp.png";
+import tour from "./company/tour.png";
 
-import superstore360 from "./superstore360.png";
-import Nexuspoint from "./Nexuspoint.png";
-import vedabot from "./vedabot.png";
+import Doctor from "./Doctor.png";
+import Mental from "./Mental.png";
+import Meal from "./Meal.png";
+import education from "./education.png";
 
 import instagram from "./instagram.png";
 import twitter from "./twitter.png";
@@ -35,10 +36,11 @@ export {
   p3,
   p4,
   p5,
-  DevUp,
-  superstore360,
-  Nexuspoint,
-  vedabot,
+  tour,
+  Meal,
+  Mental,
+  Doctor,
+  education,
   Nexus,
   instagram,
   twitter,
