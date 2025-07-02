@@ -139,7 +139,7 @@ const Works = () => {
   </motion.div>
 
   {/* Hackathon Card 2 */}
-  <motion.div
+  <div
     variants={fadeIn("up", "spring", 0.4, 1)}
     className="bg-black-100 p-6 rounded-2xl shadow-lg"
   >
@@ -154,7 +154,7 @@ guesswork out of calorie tracking and meal planning, empowering individuals to a
  <p className="text-secondary text-[16px]">It offers personalized daily calorie targets, tracks macronutrient intake, and provides smart meal. </p>
 <p className="text-secondary text-[16px]">Users can log meals, set fitness goals, and monitor progress through interactive dashboards.</p>
     </p>
-  </motion.div>
+  </div>
 
   {/* Add more hackathon cards here if needed */}
 </div>
