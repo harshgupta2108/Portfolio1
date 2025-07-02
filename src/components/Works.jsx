@@ -124,7 +124,7 @@ const Works = () => {
     className="bg-black-100 p-6 rounded-2xl shadow-lg"
   >
     <img
-      src="src/assets/Shyam.jpg" // Replace with your actual image path
+      src="src/assets/Shyam.png" // Replace with your actual image path
       alt="Hackathon 1"
       className="w-full h-70 object-cover rounded-xl mb-8"
     />
@@ -141,7 +141,7 @@ const Works = () => {
     className="bg-black-100 p-6 rounded-2xl shadow-lg"
   >
     <img
-      src="src/assets/hack.jpg" // Replace with your actual image path
+      src="src/assets/hack.png" // Replace with your actual image path
       alt="Hackathon 2"
       className="w-full h-70 object-cover rounded-xl mb-8"
     />
