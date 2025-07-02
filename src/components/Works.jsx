@@ -2,6 +2,11 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
+
+import Shyam from "../assets/Shyam.png";
+import hack from "../assets/hack.png";
+
+
 import { styles } from "../styles";
 import { githublink, live } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -123,11 +128,9 @@ const Works = () => {
     variants={fadeIn("up", "spring", 0.3, 1)}
     className="bg-black-100 p-6 rounded-2xl shadow-lg"
   >
-    <img
-      src="src/assets/Shyam.png" // Replace with your actual image path
-      alt="Hackathon "
-      className="w-full h-70 object-cover rounded-xl mb-8"
-    />
+    
+    <img src={Shyam} alt="Hackathon" className="w-full h-70 object-cover rounded-xl mb-8"/>
+    
     <h3 className="text-white text-xl font-bold mb-4">Innovate X Hackathon <p className="text-secondary text-[16px]"> Shyam Lal College, DU</p></h3>
     <p className="text-secondary text-[15px]">
       Built a web-based EdTech platform during a hackathon that offers curated tools, study materials, and preparation resources for government and competitive exams, aimed at simplifying access to quality learning content.
@@ -140,11 +143,10 @@ const Works = () => {
     variants={fadeIn("up", "spring", 0.4, 1)}
     className="bg-black-100 p-6 rounded-2xl shadow-lg"
   >
-    <img
-      src="src/assets/hack.png" // Replace with your actual image path
-      alt="Hackathon"
-      className="w-full h-70 object-cover rounded-xl mb-8"
-    />
+
+
+    <img src={hack} alt="Hackathon" className="w-full h-70 object-cover rounded-xl mb-8"/>
+   
     <h3 className="text-white text-xl font-bold mb-2">FOODOSCOPE Hackathon, 15-Hour Hackathon<p  className="text-secondary text-[16px]"> IIIT , Delhi</p></h3>
     <p className="text-secondary text-[16px]">
       calfit is a user-friendly platform that takes the
