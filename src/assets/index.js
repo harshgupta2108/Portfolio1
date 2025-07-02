@@ -15,6 +15,9 @@ import tour from "./company/tour.png";
 
 import Doctor from "./Doctor.png";
 import Mental from "./Mental.png";
+
+import Shyam from "./Shyam.png";
+import hack from "./hack.png";
 import Meal from "./Meal.png";
 import education from "./education.png";
 
@@ -43,6 +46,8 @@ export {
   education,
   Nexus,
   instagram,
+  hack,
+  Shyam,
   twitter,
   linkedin, 
   live,

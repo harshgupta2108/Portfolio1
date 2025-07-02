@@ -125,7 +125,7 @@ const Works = () => {
   >
     <img
       src="src/assets/Shyam.png" // Replace with your actual image path
-      alt="Hackathon 1"
+      alt="Hackathon "
       className="w-full h-70 object-cover rounded-xl mb-8"
     />
     <h3 className="text-white text-xl font-bold mb-4">Innovate X Hackathon <p className="text-secondary text-[16px]"> Shyam Lal College, DU</p></h3>
@@ -142,7 +142,7 @@ const Works = () => {
   >
     <img
       src="src/assets/hack.png" // Replace with your actual image path
-      alt="Hackathon 2"
+      alt="Hackathon"
       className="w-full h-70 object-cover rounded-xl mb-8"
     />
     <h3 className="text-white text-xl font-bold mb-2">FOODOSCOPE Hackathon, 15-Hour Hackathon<p  className="text-secondary text-[16px]"> IIIT , Delhi</p></h3>
