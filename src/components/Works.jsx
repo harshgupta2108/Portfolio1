@@ -105,13 +105,13 @@ const Works = () => {
       </div>
 
 
-     <motion.div variants={textVariant()} className="mt-40">
+     <div variants={textVariant()} className="mt-40">
   <p className={`${styles.sectionSubText}`}>My Experience</p>
   <h2 className={`${styles.sectionHeadText}`}>HACKATHONS</h2>
-</motion.div>
+</div>
 
 <div className="w-full flex">
-  <motion.p
+  <p
     variants={fadeIn("", "", 0.1, 1)}
     className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
   >
@@ -119,12 +119,12 @@ const Works = () => {
     highlight my teamwork, innovation, and ability to build functional
     prototypes under tight deadlines. Each includes a brief summary and
     technologies used.
-  </motion.p>
+  </p>
 </div>
 
 <div className="mt-10 grid md:grid-cols-2 gap-10">
   {/* Hackathon Card 1 */}
-  <motion.div
+  <div
     variants={fadeIn("up", "spring", 0.3, 1)}
     className="bg-black-100 p-6 rounded-2xl shadow-lg"
   >
@@ -136,7 +136,7 @@ const Works = () => {
       Built a web-based EdTech platform during a hackathon that offers curated tools, study materials, and preparation resources for government and competitive exams, aimed at simplifying access to quality learning content.
     </p>
     <p className="text-secondary text-[16px]"> Integrated subject-wise materials, mock tests, and user-friendly navigation to enhance the exam preparation experience.</p>
-  </motion.div>
+  </div>
 
   {/* Hackathon Card 2 */}
   <div
@@ -162,10 +162,10 @@ guesswork out of calorie tracking and meal planning, empowering individuals to a
 
 
 
-     <motion.div variants={textVariant()} className="mt-40">
+     <div variants={textVariant()} className="mt-40">
   
   <h2 className={`${styles.sectionHeadText}`}>CERTIFICATES</h2>
-</motion.div>
+</div>
 <p className="text-secondary text-[25px]"> # SQL Server
 Fundamentals :
 Master Basic
