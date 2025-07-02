@@ -201,7 +201,7 @@ const projects = [
 {
     name: "Calfit - calorie tracking platform",
     description:
-      "Developed a calorie tracking platform that analyzes user input to monitor daily intake.",
+      "Developed a calorie tracking platform that analyzes user input to monitor daily intake & also provide suggestion .",
     tags: [
       {
         name: "mongodb",
