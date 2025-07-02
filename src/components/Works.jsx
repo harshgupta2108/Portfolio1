@@ -162,29 +162,29 @@ guesswork out of calorie tracking and meal planning, empowering individuals to a
 
 
 
-     <div variants={textVariant()} className="mt-40">
+     <div variants={textVariant()} className="mt-40 mb-6">
   
-  <h2 className={`${styles.sectionHeadText}`}>CERTIFICATES</h2>
+  <h1 className={`${styles.sectionHeadText}`}>CERTIFICATES</h1>
 </div>
-<p className="text-secondary text-[25px]"> # SQL Server
+<p className="text-secondary text-[25px]  mb-6"> # SQL Server
 Fundamentals :
 Master Basic
 Query Techniques </p>
-<p className="text-secondary text-[25px]"> # Supervised
+<p className="text-secondary text-[25px] mb-6"> # Supervised
 Machine Learning
 (LinkedIn) </p>
-<p className="text-secondary text-[25px]"> # Python for
+<p className="text-secondary text-[25px] mb-6"> # Python for
 Data Science &
 Machine Learning
 Essentials </p>
-<p className="text-secondary text-[25px]"> # Networking and
+<p className="text-secondary text-[25px] mb-6"> # Networking and
 Administration
 Fundamental
 (LinkedIn)</p>
-<p className="text-secondary text-[25px]"> # Data Scientist
+<p className="text-secondary text-[25px] mb-6"> # Data Scientist
 (LinkedIn)</p>
 
-<p className="text-secondary text-[25px]"> # Full Stack Development
+<p className="text-secondary text-[25px] mb-6"> # Full Stack Development
 (LinkedIn)</p>
 
 
